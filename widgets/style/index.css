@@ -1,0 +1,55 @@
+body {
+  font-family: 'Playfair Display', serif;
+  background-image: url('../groot.jpg');
+}
+
+
+
+.clock {
+  display: flex;
+  justify-content: space-around;
+  border: 10px double white;
+  border-radius: 50px;
+  background: #C70039;
+  color: white;
+  width: 90%;
+  margin: auto;
+}
+
+.tabs {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+}
+
+
+
+.tab-header {
+  background: blue;
+  color: white;
+  /* position: relat */
+  justify-content: space-around;
+  font-size: 20px;
+  border: 1px solid green;
+  width: 300px;
+  height: 30px;
+  /* margin: 0 20px; */
+  /* display: flex;
+  flex-direction: row;
+  justify-content: space-between; */
+}
+
+.tab-content {
+  background: yellow;
+  /* border: 1px solid red; */
+  height: 200px;
+  width: 300px;
+}
+
+.orange {
+  background: orange;
+  z-index: 2;
+}
